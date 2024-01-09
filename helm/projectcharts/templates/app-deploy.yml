@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: vproapp
-        image: dheenathayalanb/projectapp
+        image: dheenathayalanb/projectapp:3
         ports:
         - name: vproapp-port
           containerPort: 8080
